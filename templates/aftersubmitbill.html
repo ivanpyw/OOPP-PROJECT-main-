@@ -8,7 +8,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Bill Page</title>
+	<title>Login Page</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -70,7 +70,6 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
 	</head>
 	<body>
 
@@ -149,40 +148,22 @@
 						<div class="fh5co-hero-intro">
 {#							<h1 class="to-animate hero-animate-1">Valet Multi-Purpose Free HTML5 Bootstrap Template</h1>#}
 {#							<h2 class="to-animate hero-animate-2">Created by <a href="http://freehtml5.co" target="_blank">FREEHTML5.co</a></h2>#}
-                            <div class ="theBox" style="background-color: white; width: 900px; height: 400px; padding: 10px;">
+                            <div class ="theBox" style="background-color: white; width: 900px; height: 400px; padding: 20px;">
                 <section id="c" >
 {#                {% block body %}#}
 {#                    {% if session['logged_in'] %}#}
 {#                    <p style="color:red">You're logged in already!</p>#}
 {##}
 {#                    {% else %}#}
-                    <h1>BILL</h1>
-                   <table style="width:100%; color:black; border: 1px solid #004a80;">
-                      <tr style="color:black; border: 1px solid #004a80;">
-                        <th style="color:black; border: 1px solid #004a80; text-align: center;">Amount</th>
-                        <th style="color:black; border: 1px solid #004a80; text-align: center;">Reason</th>
-                        <th style="color:black; border: 1px solid #004a80; text-align: center;">Paid</th>
-                      </tr>
+                    <h1>   </h1>
+                    <table style="width:100%; ">
                       <tr>
-                          <td>$100</td>
-                          <td>because i need it.</td>
-                          <td><input type="checkbox" name="med" value="cough"onclick="return false;" checked>Yes</td>
+{#                          <td><button style="color:blue;height:300px; width:250px;">Ward Monitoring System</button></td>#}
+{#                          <td><button style="color:blue;height: 300px; width: 250px;">Queue System</button></td>#}
+                          <td><h1 style="color:red"> You have successfully paid! </h1></td>
 
-                      </tr>
-                      <tr>
-                          <td>$20</td>
-                          <td>i am sick.</td>
-                          <td><input type="checkbox" name="med" value="flu">Yes</td>
-
-                      </tr>
-                      <tr>
-                          <td>$10</td>
-                          <td>medicine finish, need to restock.</td>
-                          <td><input type="checkbox" name="med" value="fever">Yes</td>
                       </tr>
                     </table>
-                    <a href="/aftersubmitbill/" style="color: blue;" type="submit" value="">Submit</a><br>
-                    <a href="/index/" style="color: blue;" type="submit" value="">Back to Homepage</a>
 {#                    {% endif %}#}
 {#                    {% endblock %}#}
                 </section><!-- content c -->
@@ -217,7 +198,7 @@
 		<script src="/static/JS/jquery.waypoints.min.js"></script>
 		<!-- Main JS -->
 		<script src="/static/JS/main.js"></script>
-            <script src="/static/JS/logutfunc.js"></script>
+        <script src="/static/JS/logutfunc.js"></script>
         </div>
 	</body>
 </html>
